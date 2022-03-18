@@ -13,7 +13,7 @@ struct ContentView: View {
             VStack(alignment: .leading, spacing: 16){
                 ForEach(0 ..< 40){num in
                     HStack{
-                        Text("My number \(num)")
+                        Text("My text \(num)")
                         Spacer()
                     }
                 }
